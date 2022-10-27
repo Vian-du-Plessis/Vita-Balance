@@ -8,9 +8,8 @@ const Nav = () => {
             <div className={styles.logo}>
                 <img src={logo} alt="" />
             </div>
+            <div className={styles.name}>Vita Balance</div>
             <div className={styles.links}>
-                <h1>Dashboard</h1>
-
                 <ul>
                     <li>
                         <NavLink to='/water' className={ ({ isActive }) => isActive ? styles.active : styles.unSelected}>
