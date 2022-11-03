@@ -23,7 +23,7 @@ const Nav = () => {
                     </li>
                     <li>
                         <NavLink to='/air' className={ ({ isActive }) => isActive ? styles.active : styles.unSelected} >
-                            <h1>Air freshener</h1>
+                            <h1>Smoke Detector</h1>
                         </NavLink>
                     </li>
                     <li>
